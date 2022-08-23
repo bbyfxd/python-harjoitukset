@@ -1,10 +1,8 @@
 import math
 
-r = float(input ("Anna ympyrän säde"))
-ala = math.pi * math.pow (r*2)
+r = float(input("Circles radius:"))
+A = math.pi * (r * r)
 
-print(f"Ympyrän pinta-ala on {ala: 3.f})
-
-
+print(f"Circle's area is: {A}")
 
 
