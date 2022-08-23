@@ -1,11 +1,8 @@
-# kysytään tiedot
-kanta = float(input("Anna suorakulmion kanta"))
-korkeus = float(input("Anna suorakulmion korkeus"))
+Korkeus = float(input("Anna korkeus:"))
+Kanta = float(input("Anna kanta:"))
 
-# laskutoimitus
-A = kanta * korkeus
-piiri = (kanta * 2) + (korkeus * 2)
+piiri = 2 * (Korkeus+Kanta)
+A = Korkeus * Kanta
 
-#tulostukset
-print(f"Ala = {A}")
-print(f"Piiri = {piiri}")
+print(f"piiri = {piiri}")
+print(f"A = {A}")
